@@ -15,8 +15,8 @@ to build REST services.
 This is a reduced fork of [`github.com/swaggest/rest`](https://github.com/swaggest/rest) 
 that uses [`fasthttp`](https://github.com/valyala/fasthttp) instead of standard `net/http`.
 
-On one `fasthttp` brings better performance and memory efficiency to highly loaded services, 
-on another hand it is not compatible with many existing middlewares and may require additional 
+`fasthttp` brings better performance and memory efficiency to highly loaded services, 
+but it is not compatible with many existing middlewares and may require additional 
 dev effort for such cases.
 
 ## Goals
